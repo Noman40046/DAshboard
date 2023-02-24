@@ -1,0 +1,539 @@
+body
+{
+    font-family: 'Mulish', sans-serif;
+    overflow-x: hidden;
+  
+}
+.navbar
+{
+    background-color: rgb(255, 255, 255);
+}
+.homepage-navbar
+{
+    padding: 2px;
+}
+.nav-search-btn
+{
+    
+    color: white;
+    background-color: #17C3B2;
+    border: none;
+    padding:3px 5px 3px 5px;
+}
+.input-search
+{
+    border-radius: 0px;
+    padding: 3px 3px 3px 3px;
+}
+.me
+{
+    width:33px;
+    height: 33px;
+    border-radius: 50%;
+    margin-left: 20px;
+    border: 2px solid #17C3B2;
+}
+.icon-both
+{
+    
+    color: #393939;
+    margin-right: 10px;
+    font-size: 20px;
+    margin-top: 5px;
+}
+.unread
+{
+ font-size: 7px;
+ background-color:#17C3B2;
+ color: white;
+ border-radius: 100%;
+ padding: 6px 4px 6px 4px;
+ margin-left: -6px;
+}
+
+/* hide-bar start here------------------ */
+
+.hide-icon
+{
+font-size: 20px;
+border-radius: 5px;
+border: 2px solid #ADCEDE ;
+}
+
+
+.dropdown
+{
+    text-align: start;
+}
+.main-link1
+{
+    list-style-type: none;
+}
+.left-side
+{
+    
+    border: 2px solid black;
+    height: 700px;
+    overflow: auto;
+   
+}
+.left-side-img
+{
+    width:12%;
+    height: auto;
+    margin-left: 60px;
+    margin-top: 15px;  
+}
+.img-section
+{
+    background-color: #F3F6F9;
+   
+}
+
+.link-icon
+{
+    
+    color: #ADCEDE;
+    font-size: 17px;
+    margin-left: 5px;
+}
+.link-name
+{
+    color: #144339;
+    font-size: 14px;
+
+}
+.dropdown-item
+{
+    font-size: 13px;
+}
+
+/* hide-bar end here------------------ */
+
+/* main body start here------------------ */
+.leftsider-icon
+{
+    color: #ADCEDE;
+    font-size: 20px;
+    margin-left: 5px;
+  
+}
+li
+{
+    list-style-type: none;
+}
+.leftsider
+{
+    background-color: rgb(255, 255, 255);
+    overflow: auto;
+    height: 700px;  
+}
+
+
+/* rightsider start here--------------------- */
+.rightsider
+{
+    background-color: rgb(244, 244, 244);
+}
+.all-progress
+{
+    background-color: white;
+    border-radius: 15px;
+}
+.progress-name1
+{
+    font-size: 30px;
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+}
+.progress-name1:hover
+{
+    color: black;
+}
+.progress-name2
+{
+    font-size: 13px;
+    text-decoration: none;
+    color: rgb(92, 92, 92);
+}
+.progress-name2:hover
+{
+    color: rgb(92, 92, 92);
+}
+.stoke
+{
+    display: flex;
+    justify-content: space-between;
+}
+.stoke-detail
+{
+    font-size: 20px;
+    font-weight:700;
+    color: rgb(92, 92, 92);
+}
+.show-by-month
+{
+    background-color: rgb(235, 235, 235);
+    color: rgb(92, 92, 92);
+   
+}
+.month
+{
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.stoke-icon10
+{
+    font-size: 12px;
+    color: #0D47A1;  
+}
+.stoke-icon9
+{
+    font-size: 12px;
+    color: #1565C0;  
+}
+.stoke-icon8
+{
+    font-size: 12px;
+    color: #1976D2;  
+}
+.stoke-icon7
+{
+    font-size: 12px;
+    color: #1E88E5;  
+}
+.stoke-icon6
+{
+    font-size: 12px;
+    color: #2196F3;  
+}
+.stoke-icon5
+{
+    font-size: 12px;
+    color: #42A5F5;  
+}
+.stoke-icon4
+{
+    font-size: 12px;
+    color: #64B5F6;  
+}
+.stoke-icon3
+{
+    font-size: 12px;
+    color: #90CAF9;  
+}
+.stoke-icon2
+{
+    font-size: 12px;
+    color: #BBDEFB;  
+}
+.stoke-icon1
+{
+    font-size: 12px;
+    color: #E3F2FD;  
+}
+.stoke-items
+{
+    font-size: 12px;
+    text-decoration:none;
+    color: rgb(51, 51, 51);
+    font-weight: 600;
+    margin-right: 5px;
+}
+.stoke-items:hover
+{
+    color: rgb(29, 29, 29);
+    
+}
+.progress-date
+{
+    font-size: 15px;
+    color: rgb(136, 136, 136);
+    text-decoration: none;
+  
+}
+.calender
+{
+    font-size: 13px;
+    color: rgb(136, 136, 136);
+}
+.both-user
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.user-button1
+{
+background-color: #227C9D;
+padding: 5px 40px 5px 40px;
+border-radius: 10px;
+}
+.user-button2
+{
+background-color: #FFCB77;
+padding: 5px 40px 5px 40px;
+border-radius: 10px;
+}
+.user-button3
+{
+background-color: #FE6D73;
+padding: 5px 40px 5px 40px;
+border-radius: 10px;
+}
+.user-button4
+{
+background-color: #ba33dc;
+padding: 5px 40px 5px 40px;
+border-radius: 10px;
+}
+.user-button-icon
+{
+    color: white;
+    margin-bottom: 17px;
+}
+.user
+{
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+.twenty-five
+{
+    font-weight: 700;
+}
+/* rightsider end here--------------------- */
+
+
+/* user str=art here--------------------------- */
+.first-sales-col
+{
+    background-color: white;
+    border-radius: 10px;
+    margin: 12px;
+   
+}
+.stoke1
+{
+    display: flex;
+    justify-content: space-between;
+}
+.input-search1
+{
+    
+    width: 100px;
+}
+.nav-search-btn1
+{
+    
+    color: white;
+    background-color: #17C3B2;
+    border: none;
+    padding:3px 5px 3px 5px;
+}
+.show-by-month1
+{
+    background-color: rgb(235, 235, 235);
+    color: rgb(92, 92, 92);
+    
+   
+}
+.month1
+{
+    font-size: 13px;
+    font-weight: 700;
+}
+.user-buttons
+{
+    background-color: rgb(244, 244, 244);
+
+border-radius: 10px;
+display: flex;
+flex-direction: row;
+align-items: center;
+margin-bottom: 20px;
+}
+.user-button-icons
+{
+    color: rgb(62, 62, 62);
+    font-size: 17px;
+   
+}
+.last-week-icon
+{
+    font-size: 25px;
+}
+.last-week-icon1
+{
+    color: rgb(50, 50, 50);
+}
+.last-week-icon1:hover
+{
+    color: rgb(50, 50, 50);
+}
+.most-sales
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.most-sale-logo1
+{
+    font-size: 35px;
+    color: #227C9D;
+}
+.most-sale-logo2
+{
+    font-size: 35px;
+    color: #FFCB77;
+}
+.most-sale-logo3
+{
+    font-size: 35px;
+    color: #FE6D73;
+}
+.most-sale-logo
+{
+    display: flex;
+    align-items: center;
+}
+.seventy-four
+{
+    font-size: 50px;
+    font-weight: 700;
+}
+.seventy-four-progress
+{
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+.first-item
+{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around; 
+}
+.first-item-icon
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sales-main-icon-background
+{
+    padding: 10px;
+    background-color: rgb(244, 244, 244);
+    border-radius: 10px;
+}
+.sales-main-icon
+{
+    font-size: 25px;
+    color: #17C3B2;
+}
+.sales-main-icon1
+{
+    font-size: 25px;
+    color: #ad18e3;
+}
+.sales-main-icon2
+{
+    font-size: 25px;
+    color: #FFCB77;
+}
+.sales-main-icon3
+{
+    font-size: 25px;
+    color: #FE6D73;
+}
+.sales-main-icon4
+{
+    font-size: 25px;
+    color: #bd4e4e;
+}
+.sales-main-icon5
+{
+    font-size: 25px;
+    color: #e3e318;
+}
+.sales-main-icon6
+{
+    font-size: 25px;
+    color: #004879;
+}
+.sales-main-icon7
+{
+    font-size: 25px;
+    color: #227C9D;
+}
+.first-item-name
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.twenty-thirty
+{
+    font-weight: 700;
+}
+.sales-sec
+{
+    font-weight: 700;
+}
+.jhon
+{
+    text-decoration: none;
+    color: rgb(135, 18, 237);
+    font-weight: 600;
+}
+.jhon:hover
+{
+    color: rgb(135, 18, 237);
+}
+.me1
+{
+    width:33px;
+    height: 33px;
+    border-radius: 50%;
+    margin-left: 20px;
+    border: 2px solid #9c6da4;
+}
+.first-area-header
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.active-status
+{
+    color: rgb(56, 116, 227);
+}
+.active-status:hover
+{
+    color: rgb(150, 150, 150);
+}
+.active-status2
+{
+    color: rgb(150, 150, 150);
+}
+.active-status2:hover
+{
+    color: rgb(56, 116, 227);
+}
+.time-active
+{
+    text-decoration: none;
+}
+.min
+{
+    font-weight: 700;
+    color: #1e6add;
+}
+.min1
+{
+    font-weight: 700;
+    color: rgb(150, 150, 150);
+}

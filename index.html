@@ -1,0 +1,1737 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <!-- CSS LINK START HERE------------------------------------------------------>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+
+    <!-- CSS LINK END HERE--------------------------------------------------------->
+
+    <!-- font link--------- -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&family=Great+Vibes&family=Hind+Siliguri:wght@300;400;500;600;700&family=Jost:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,900&family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Montserrat:ital,wght@0,300;0,500;0,600;0,700;0,800;0,900;1,300;1,500;1,700;1,800&family=Mulish:ital,wght@0,300;0,400;0,500;0,600;0,800;0,900;0,1000;1,300;1,400;1,600;1,700;1,800;1,900;1,1000&family=Poppins:ital,wght@0,500;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,700;1,900&family=Roboto:ital,wght@0,400;0,700;0,900;1,300;1,400;1,500;1,900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,700;1,300;1,600;1,700&family=Ubuntu:ital,wght@0,300;0,500;0,700;1,300;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font link--------- -->
+
+    <!-- FAVICON START HERE---------------------------------------------------------->
+    <link rel="shortcut icon" href="img/logo4.png" type="image/x-icon" />
+    <!-- FAVICON END HERE--------------------------------------------------------------->
+    <title>Management Admin</title>
+  </head>
+  <body>
+    <!-- navbar body start here--------------- -->
+    <section class="main-body">
+      <nav class="navbar">
+        <div class="container-fluid d-flex">
+          <button
+            class="navbar-toggler homepage-navbar me-1"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasDarkNavbar"
+            aria-controls="offcanvasDarkNavbar"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div
+            class="offcanvas offcanvas-start text-bg-light"
+            tabindex="-1"
+            id="offcanvasDarkNavbar"
+            aria-labelledby="offcanvasDarkNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <button
+                type="button"
+                class="navbar-toggler-icon hide-icon"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <img
+                  class="left-side-img fixed-top"
+                  src="img/logo.png"
+                  alt=""
+                />
+
+                <!-- first link start here------------------ -->
+                <li class="main-link1">
+                  <div class="dropdown">
+                    <i class="fa-solid fa-table-cells-large link-icon"></i>
+
+                    <button
+                      class="btn dropdown-toggle main-button"
+                      type="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      <span class="link-name">User Management</span>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Default</a></li>
+                      <li>
+                        <a class="dropdown-item" href="#">Dark Sidebar</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">Light Sidebar</a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <!-- first link end here------------------ -->
+                <!-- first link start here------------------ -->
+                <li class="main-link1">
+                  <div class="dropdown">
+                    <i class="fa-solid fa-laptop-code link-icon"></i>
+                    <button
+                      class="btn dropdown-toggle main-button"
+                      type="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      <span class="link-name">Application</span>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Editor</a></li>
+                      <li><a class="dropdown-item" href="#">Mail BOx</a></li>
+                      <li><a class="dropdown-item" href="#">Chat</a></li>
+                      <li><a class="dropdown-item" href="#">FAQ</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <!-- first link end here------------------ -->
+                <!-- first link start here------------------ -->
+                <li class="main-link1">
+                  <div class="dropdown">
+                    <i class="fa-regular fa-file link-icon"></i>
+                    <button
+                      class="btn dropdown-toggle main-button"
+                      type="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      <span class="link-name">Pages</span>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Log in</a></li>
+                      <li><a class="dropdown-item" href="#">Register</a></li>
+                      <li>
+                        <a class="dropdown-item" href="#">Forget Password</a>
+                      </li>
+                      <li><a class="dropdown-item" href="#">Gallery</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <!-- first link end here------------------ -->
+                <!-- first link start here------------------ -->
+                <li class="main-link1">
+                  <div class="dropdown">
+                    <i class="fa-solid fa-user-secret link-icon"></i>
+                    <button
+                      class="btn dropdown-toggle main-button"
+                      type="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      <span class="link-name">Admins</span>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Admin list</a></li>
+                      <li>
+                        <a class="dropdown-item" href="#">Add new admin</a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <!-- first link end here------------------ -->
+                <!-- first link start here------------------ -->
+                <li class="main-link1">
+                  <div class="dropdown">
+                    <i class="fa-solid fa-file-invoice link-icon"></i>
+                    <button
+                      class="btn dropdown-toggle main-button"
+                      type="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      <span class="link-name">Role and Permission</span>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a class="dropdown-item" href="#">Module Settings</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          >Role and Permission</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <!-- first link end here------------------ -->
+                <!-- first link start here------------------ -->
+                <li class="main-link1">
+                  <div class="dropdown">
+                    <i class="fa-solid fa-bars link-icon"></i>
+                    <button
+                      class="btn dropdown-toggle main-button"
+                      type="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      <span class="link-name">Navs</span>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Log in</a></li>
+                      <li><a class="dropdown-item" href="#">Register</a></li>
+                      <li>
+                        <a class="dropdown-item" href="#">Forget Password</a>
+                      </li>
+                      <li><a class="dropdown-item" href="#">Gallery</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <!-- first link end here------------------ -->
+                <!-- first link start here------------------ -->
+                <li class="main-link1">
+                  <div class="dropdown">
+                    <i class="fa-solid fa-user link-icon"></i>
+                    <button
+                      class="btn dropdown-toggle main-button"
+                      type="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      <span class="link-name">User</span>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Log in</a></li>
+                      <li><a class="dropdown-item" href="#">Register</a></li>
+                      <li>
+                        <a class="dropdown-item" href="#">Forget Password</a>
+                      </li>
+                      <li><a class="dropdown-item" href="#">Gallery</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <!-- first link end here------------------ -->
+                <!-- first link start here------------------ -->
+                <li class="main-link1">
+                  <div class="dropdown">
+                    <i class="fa-regular fa-building link-icon"></i>
+                    <button
+                      class="btn dropdown-toggle main-button"
+                      type="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      <span class="link-name">Builder</span>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Log in</a></li>
+                      <li><a class="dropdown-item" href="#">Register</a></li>
+                      <li>
+                        <a class="dropdown-item" href="#">Forget Password</a>
+                      </li>
+                      <li><a class="dropdown-item" href="#">Gallery</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <!-- first link end here------------------ -->
+                <!-- first link start here------------------ -->
+                <li class="main-link1">
+                  <div class="dropdown">
+                    <i class="fa-sharp fa-solid fa-phone-volume link-icon"></i>
+                    <button
+                      class="btn dropdown-toggle main-button"
+                      type="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      <span class="link-name">Invoice</span>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Log in</a></li>
+                      <li><a class="dropdown-item" href="#">Register</a></li>
+                      <li>
+                        <a class="dropdown-item" href="#">Forget Password</a>
+                      </li>
+                      <li><a class="dropdown-item" href="#">Gallery</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <!-- first link end here------------------ -->
+                <!-- first link start here------------------ -->
+                <li class="main-link1">
+                  <div class="dropdown">
+                    <i
+                      class="fa-sharp fa-solid fa-arrow-up-right-from-square link-icon"
+                    ></i>
+                    <button
+                      class="btn dropdown-toggle main-button"
+                      type="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      <span class="link-name">Forms</span>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Log in</a></li>
+                      <li><a class="dropdown-item" href="#">Register</a></li>
+                      <li>
+                        <a class="dropdown-item" href="#">Forget Password</a>
+                      </li>
+                      <li><a class="dropdown-item" href="#">Gallery</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <!-- first link end here------------------ -->
+                <!-- first link start here------------------ -->
+                <li class="main-link1">
+                  <div class="dropdown">
+                    <i class="fa-sharp fa-solid fa-sliders link-icon"></i>
+                    <button
+                      class="btn dropdown-toggle main-button"
+                      type="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      <span class="link-name">Board</span>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Log in</a></li>
+                      <li><a class="dropdown-item" href="#">Register</a></li>
+                      <li>
+                        <a class="dropdown-item" href="#">Forget Password</a>
+                      </li>
+                      <li><a class="dropdown-item" href="#">Gallery</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <!-- first link end here------------------ -->
+                <!-- first link start here------------------ -->
+                <li class="main-link1">
+                  <div class="dropdown">
+                    <i class="fa-solid fa-calendar-days link-icon"></i>
+                    <button
+                      class="btn dropdown-toggle main-button"
+                      type="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      <span class="link-name">Calander</span>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Log in</a></li>
+                      <li><a class="dropdown-item" href="#">Register</a></li>
+                      <li>
+                        <a class="dropdown-item" href="#">Forget Password</a>
+                      </li>
+                      <li><a class="dropdown-item" href="#">Gallery</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <!-- first link end here------------------ -->
+                <!-- first link start here------------------ -->
+                <li class="main-link1">
+                  <div class="dropdown">
+                    <i class="fa-brands fa-ethereum link-icon"></i>
+                    <button
+                      class="btn dropdown-toggle main-button"
+                      type="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      <span class="link-name">Themes</span>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Log in</a></li>
+                      <li><a class="dropdown-item" href="#">Register</a></li>
+                      <li>
+                        <a class="dropdown-item" href="#">Forget Password</a>
+                      </li>
+                      <li><a class="dropdown-item" href="#">Gallery</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <!-- first link end here------------------ -->
+                <!-- first link start here------------------ -->
+                <li class="main-link1">
+                  <div class="dropdown">
+                    <i class="fa-brands fa-product-hunt link-icon"></i>
+                    <button
+                      class="btn dropdown-toggle main-button"
+                      type="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      <span class="link-name">General</span>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Log in</a></li>
+                      <li><a class="dropdown-item" href="#">Register</a></li>
+                      <li>
+                        <a class="dropdown-item" href="#">Forget Password</a>
+                      </li>
+                      <li><a class="dropdown-item" href="#">Gallery</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <!-- first link end here------------------ -->
+                <!-- first link start here------------------ -->
+                <li class="main-link1">
+                  <div class="dropdown">
+                    <i class="fa-solid fa-icons link-icon"></i>
+                    <button
+                      class="btn dropdown-toggle main-button"
+                      type="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      <span class="link-name">Products</span>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Log in</a></li>
+                      <li><a class="dropdown-item" href="#">Register</a></li>
+                      <li>
+                        <a class="dropdown-item" href="#">Forget Password</a>
+                      </li>
+                      <li><a class="dropdown-item" href="#">Gallery</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <!-- first link end here------------------ -->
+                <!-- first link start here------------------ -->
+                <li class="main-link1">
+                  <div class="dropdown">
+                    <i class="fa-solid fa-icons link-icon"></i>
+                    <button
+                      class="btn dropdown-toggle main-button"
+                      type="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      <span class="link-name">Icons</span>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Log in</a></li>
+                      <li><a class="dropdown-item" href="#">Register</a></li>
+                      <li>
+                        <a class="dropdown-item" href="#">Forget Password</a>
+                      </li>
+                      <li><a class="dropdown-item" href="#">Gallery</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <!-- first link end here------------------ -->
+                <!-- first link start here------------------ -->
+                <li class="main-link1">
+                  <div class="dropdown">
+                    <i class="fa-solid fa-child-combatant link-icon"></i>
+                    <button
+                      class="btn dropdown-toggle main-button"
+                      type="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      <span class="link-name">Animations</span>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Log in</a></li>
+                      <li><a class="dropdown-item" href="#">Register</a></li>
+                      <li>
+                        <a class="dropdown-item" href="#">Forget Password</a>
+                      </li>
+                      <li><a class="dropdown-item" href="#">Gallery</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <!-- first link end here------------------ -->
+                <!-- first link start here------------------ -->
+                <li class="main-link1">
+                  <div class="dropdown">
+                    <i class="fa-brands fa-google-play link-icon"></i>
+                    <button
+                      class="btn dropdown-toggle main-button"
+                      type="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      <span class="link-name">Components</span>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Log in</a></li>
+                      <li><a class="dropdown-item" href="#">Register</a></li>
+                      <li>
+                        <a class="dropdown-item" href="#">Forget Password</a>
+                      </li>
+                      <li><a class="dropdown-item" href="#">Gallery</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <!-- first link end here------------------ -->
+                <!-- first link start here------------------ -->
+                <li class="main-link1">
+                  <div class="dropdown">
+                    <i class="fa-sharp fa-solid fa-table link-icon"></i>
+                    <button
+                      class="btn dropdown-toggle main-button"
+                      type="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      <span class="link-name">Table</span>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Data table</a></li>
+                      <li><a class="dropdown-item" href="#">Bootstrap</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <!-- first link end here------------------ -->
+                <!-- first link start here------------------ -->
+                <li class="main-link1">
+                  <div class="dropdown">
+                    <i class="fa-brands fa-cc-amazon-pay link-icon"></i>
+                    <button
+                      class="btn dropdown-toggle main-button"
+                      type="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      <span class="link-name">Cards</span>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Basic card</a></li>
+                      <li><a class="dropdown-item" href="#">Theme card</a></li>
+
+                      <li>
+                        <a class="dropdown-item" href="#">Draggable card</a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <!-- first link end here------------------ -->
+                <!-- first link start here------------------ -->
+                <li class="main-link1">
+                  <div class="dropdown">
+                    <i class="fa-solid fa-chart-gantt link-icon"></i>
+                    <button
+                      class="btn dropdown-toggle main-button"
+                      type="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      <span class="link-name">Charts</span>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Apex chart</a></li>
+                      <li>
+                        <a class="dropdown-item" href="#">Chart sparkline</a>
+                      </li>
+                      <li><a class="dropdown-item" href="#">Am chart</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <!-- first link end here------------------ -->
+                <!-- first link start here------------------ -->
+                <li class="main-link1">
+                  <div class="dropdown">
+                    <i class="fa-sharp fa-solid fa-kitchen-set link-icon"></i>
+                    <button
+                      class="btn dropdown-toggle main-button"
+                      type="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      <span class="link-name">UI kits</span>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Color</a></li>
+                      <li><a class="dropdown-item" href="#">Button</a></li>
+                      <li><a class="dropdown-item" href="#">Modal</a></li>
+                      <li><a class="dropdown-item" href="#">Typography</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <!-- first link end here------------------ -->
+                <!-- first link start here------------------ -->
+                <li class="main-link1">
+                  <div class="dropdown">
+                    <i
+                      class="fa-sharp fa-solid fa-arrow-up-right-from-square link-icon"
+                    ></i>
+                    <button
+                      class="btn dropdown-toggle main-button"
+                      type="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      <span class="link-name">Widgets</span>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Chart box</a></li>
+                      <li>
+                        <a class="dropdown-item" href="#">Profile Boxr</a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <!-- first link end here------------------ -->
+                <!-- first link start here------------------ -->
+                <li class="main-link1">
+                  <div class="dropdown">
+                    <i class="fa-sharp fa-solid fa-map link-icon"></i>
+                    <button
+                      class="btn dropdown-toggle main-button"
+                      type="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      <span class="link-name">Maps</span>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Map js</a></li>
+                      <li><a class="dropdown-item" href="#">Vector Maps</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <!-- first link end here------------------ -->
+              </ul>
+            </div>
+          </div>
+
+          <form class="d-flex me-auto" role="search">
+            <input
+              class="form-control input-search"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="nav-search-btn" type="submit">
+              <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+            </button>
+          </form>
+
+          <div class="nav-icon d-flex">
+            <div class="icons d-flex">
+              <a href="#"
+                ><i class="fa-regular fa-bell icon-both"
+                  ><span class="unread">2+</span></i
+                ></a
+              >
+
+              <a href="#"
+                ><i class="fa-regular fa-message icon-both"
+                  ><span class="unread">8+</span></i
+                ></a
+              >
+            </div>
+            <div class="img">
+              <a href="#"><img class="me" src="img/me.JPG" alt="" /></a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </section>
+    <!-- navbar body end here--------------- -->
+
+    <section class="main-body">
+      <div class="row">
+        <!-- left-section start here------------------- -->
+        <div class="col-md-1 leftsider p-3">
+          <div class="container text-center">
+         
+            <div class="leftsider-icon" >
+             
+                <p><a href="#"><i class="fa-solid fa-table-cells-large leftsider-icon"></i></a></p>
+                <p><a href="#"><i class="fa-solid fa-laptop-code leftsider-icon"></i></a></p>
+                <p><a href="#"><i class="fa-regular fa-file leftsider-icon"></i></a></p>
+                <p><a href="#"><i class="fa-solid fa-user-secret leftsider-icon"></i></a></p>
+                <p><a href="#"><i class="fa-solid fa-file-invoice leftsider-icon"></i></a></p>
+                <p><a href="#"><i class="fa-solid fa-ellipsis leftsider-icon"></i></a></p>
+                <p><a href="#"><i class="fa-solid fa-bars leftsider-icon"></i></a></p>
+                <p><a href="#"><i class="fa-regular fa-building leftsider-icon"></i> </a></p>
+                <p><a href="#"><i class="fa-sharp fa-solid fa-phone-volume leftsider-icon"></i></a></p>
+                <p><a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square leftsider-icon"></i></a></p>
+                <p><a href="#"><i class="fa-sharp fa-solid fa-sliders leftsider-icon"></i></a></p>
+                <p><a href="#"><i class="fa-solid fa-calendar-days leftsider-icon"></i> </a></p>
+                <p><a href="#"><i class="fa-brands fa-ethereum leftsider-icon"></i> </a></p>
+                <p><a href="#"><i class="fa-brands fa-product-hunt leftsider-icon"></i></a></p>
+                <p><a href="#"><i class="fa-solid fa-icons leftsider-icon"></i></a></p>
+                <p><a href="#"><i class="fa-solid fa-child-combatant leftsider-icon"></i></a></p>
+                <p><a href="#"><i class="fa-brands fa-google-play leftsider-icon"></i> </a></p>
+                <p><a href="#"><i class="fa-sharp fa-solid fa-table leftsider-icon"></i></a></p>
+                <p><a href="#"><i class="fa-brands fa-cc-amazon-pay leftsider-icon"></i></a></p>
+                <p><a href="#"><i class="fa-solid fa-chart-gantt leftsider-icon"></i></a></p>
+                <p><a href="#"><i class="fa-sharp fa-solid fa-kitchen-set leftsider-icon"></i></a></p>
+                <p><a href="#"><i class="fa-solid fa-chart-gantt leftsider-icon"></i></a></p>
+                <p><a href="#"><i class="fa-sharp fa-solid fa-map leftsider-icon"></i></a></p>
+                
+            </div>
+          </div>
+        
+        </div>
+        <!-- left-section end here------------------- -->
+
+
+
+
+        <!-- right-section start here------------------- -->
+
+        <div class="col-md-11 rightsider">
+          <!-- progess start here---------------- -->
+          <section class="full-progress pt-3 pb-3">
+            <div class="row m-2">
+              <!-- right-left section start here---------------- -->
+              <div class="col-md-8">
+      
+                <a class="progress-name1" href="#">Dashboard</a>
+                <a class="progress-name2" href="#">Home/Analytic</a>
+      
+                <div class="all-progress p-4 mt-3">
+                  <div class="stoke pb-5">
+                    <div class="stoke-detail">
+                      <p>Stoke Details</p>
+                    </div>
+                    <div class="stoke-month">
+                      <div class="dropdown">
+                        <button
+                          class="btn show-by-month dropdown-toggle"
+                          type="button"
+                          data-bs-toggle="dropdown"
+                          aria-expanded="false"
+                        >
+                          <span class="month"> Show by month </span>
+                        </button>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li>
+                            <a class="dropdown-item" href="#">Another action</a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="#"
+                              >Something else here</a
+                            >
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="progress mb-3"
+                    role="progressbar"
+                    aria-label="Animated striped example"
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    <div
+                      class="progress-bar"
+                      style="width: 75%; background-color: #e3f2fd"
+                    >
+                      75%
+                    </div>
+                  </div>
+                  <div
+                    class="progress mb-3"
+                    role="progressbar"
+                    aria-label="Animated striped example"
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    <div
+                      class="progress-bar"
+                      style="width: 55%; background-color: #bbdefb"
+                    >
+                      55%
+                    </div>
+                  </div>
+                  <div
+                    class="progress mb-3"
+                    role="progressbar"
+                    aria-label="Animated striped example"
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    <div
+                      class="progress-bar"
+                      style="width: 45%; background-color: #90caf9"
+                    >
+                      45%
+                    </div>
+                  </div>
+                  <div
+                    class="progress mb-3"
+                    role="progressbar"
+                    aria-label="Animated striped example"
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    <div
+                      class="progress-bar"
+                      style="width: 35%; background-color: #64b5f6"
+                    >
+                      35%
+                    </div>
+                  </div>
+                  <div
+                    class="progress mb-3"
+                    role="progressbar"
+                    aria-label="Animated striped example"
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    <div
+                      class="progress-bar"
+                      style="width: 65%; background-color: #42a5f5"
+                    >
+                      65%
+                    </div>
+                  </div>
+                  <div
+                    class="progress mb-3"
+                    role="progressbar"
+                    aria-label="Animated striped example"
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    <div
+                      class="progress-bar"
+                      style="width: 85%; background-color: #2196f3"
+                    >
+                      85%
+                    </div>
+                  </div>
+                  <div
+                    class="progress mb-3"
+                    role="progressbar"
+                    aria-label="Animated striped example"
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    <div
+                      class="progress-bar"
+                      style="width: 35%; background-color: #1e88e5"
+                    >
+                      35%
+                    </div>
+                  </div>
+                  <div
+                    class="progress mb-3"
+                    role="progressbar"
+                    aria-label="Animated striped example"
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    <div
+                      class="progress-bar"
+                      style="width: 65%; background-color: #1976d2"
+                    >
+                      65%
+                    </div>
+                  </div>
+                  <div
+                    class="progress mb-3"
+                    role="progressbar"
+                    aria-label="Animated striped example"
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    <div
+                      class="progress-bar"
+                      style="width: 55%; background-color: #1565c0"
+                    >
+                      55%
+                    </div>
+                  </div>
+                  <div
+                    class="progress mb-3"
+                    role="progressbar"
+                    aria-label="Animated striped example"
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    <div
+                      class="progress-bar"
+                      style="width: 65%; background-color: #0d47a1"
+                    >
+                      65%
+                    </div>
+                  </div>
+      
+                  <div>
+                    <a href="#"
+                      ><i class="fa-solid fa-circle stoke-icon10"></i
+                    ></a>
+                    <a class="stoke-items" href="#">Dextop</a>
+                    <a href="#"><i class="fa-solid fa-circle stoke-icon9"></i></a>
+                    <a class="stoke-items" href="#">Laptop</a>
+                    <a href="#"><i class="fa-solid fa-circle stoke-icon8"></i></a>
+                    <a class="stoke-items" href="#">Tablets</a>
+                    <a href="#"><i class="fa-solid fa-circle stoke-icon7"></i></a>
+                    <a class="stoke-items" href="#">Mobile</a>
+                    <a href="#"><i class="fa-solid fa-circle stoke-icon6"></i></a>
+                    <a class="stoke-items" href="#">Printer</a>
+                    <a href="#"><i class="fa-solid fa-circle stoke-icon5"></i></a>
+                    <a class="stoke-items" href="#">Scanner</a>
+                    <a href="#"><i class="fa-solid fa-circle stoke-icon4"></i></a>
+                    <a class="stoke-items" href="#">Mouse</a>
+                    <a href="#"><i class="fa-solid fa-circle stoke-icon3"></i></a>
+                    <a class="stoke-items" href="#">Keyboard</a>
+                    <a href="#"><i class="fa-solid fa-circle stoke-icon2"></i></a>
+                    <a class="stoke-items" href="#">Monitor</a>
+                    <a href="#"><i class="fa-solid fa-circle stoke-icon1"></i></a>
+                    <a class="stoke-items" href="#">Cpu</a>
+                  </div>
+                </div>
+      
+              </div>
+              <!-- right-left section end here---------------- -->
+      
+              <!-- right-right section start here---------------- -->
+      
+              <div class="col-md-4 progress-time p-4 mt-3">
+                <div class="calenderand date text-center">
+                  <i class="fa-solid fa-calendar-days calender"></i>
+                  <a class="progress-date " href="#">August 1, 2020 - August 31, 2020</a>
+                </div>
+                
+        <div class="col-md-6 both-user  ">
+        <div class="user m-3 text-center">
+          <a class="user-button1" href="#"><i class="fa-solid fa-user user-button-icon"></i></a>
+          <h5 class="twenty-five ">2455</h5>
+          <p>User</p>
+          <p>Registration</p>
+        </div>
+        <div class="user m-3 text-center">
+          <a class="user-button2" href="#"><i class="fa-sharp fa-solid fa-bag-shopping user-button-icon"></i></a>
+          <h5 class="twenty-five">2455</h5>
+          <p>User</p>
+          <p>Registration</p>
+        </div>
+        </div>
+      
+      
+        <div class="col-md-6 both-user  ">
+          <div class="user m-3 text-center">
+            <a class="user-button3" href="#"><i class="fa-sharp fa-solid fa-list-check user-button-icon"></i></a>
+            <h5 class="twenty-five">2455</h5>
+            <p> User</p>
+            <p>Registration</p>
+        
+          </div>
+          <div class="user m-3 text-center">
+            <a class="user-button4" href="#"><i class="fa-solid fa-database user-button-icon"></i></a>
+            <h5 class="twenty-five">2455</h5
+            <p>User</p>
+            <p>Registration</p>
+          </div>
+          </div>
+      
+      </div>
+              <!-- right-right section end here---------------- -->
+              </div>
+          </section>
+          <!-- progess end here---------------- -->
+
+      
+<!-- user sales start here---------------------------------------------- -->
+<section class="user-sales p-2 pt-3 pb-3">
+<div class="row m-2">
+
+  <!-- first-user col start----------------- -->
+  <div class="col-md-4 text-center p-4  first-sales-col">
+
+<!-- customer heading start here------------------ -->
+
+    <div class="stoke1 pb-4">
+      <div class="stoke-detail">
+        <p>New User</p>
+      </div>
+
+      <div class="stoke-month">
+        <div class="dropdown">
+          <button
+            class="btn show-by-month1 dropdown-toggle"
+            type="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            <span class="month1"> Show By ALL </span>
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li>
+              <a class="dropdown-item" href="#">Another action</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"
+                >Something else here</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="stoke-month"> 
+         <form class="d-flex me-auto">
+          <input
+            class=" input-search1"
+            type="search"
+            placeholder="Search"
+          />
+          <button class="nav-search-btn1" type="submit">
+            <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+          </button>
+        </form>
+      </div>
+    </div>
+<!-- customer heading end here------------------ -->
+
+<!-- all cotomers start here------------------ --> 
+
+<!--customer-number-one start here---------- -->
+<div class="row user-buttons">
+  <div class="col-md-3">
+    <div class="img">
+      <a href="#"><img class="me1" src="img/me.JPG" alt="" /></a>
+    </div>
+  </div>
+  <div class="col-md-3">
+    <a class="jhon" href="#">Jhon Smith</a>
+  </div>
+  <div class="col-md-3">
+    <a href="#"><i class="fa-sharp fa-solid fa-pen-to-square user-button-icons"></i></a>
+  </div>
+  <div class="col-md-3">
+    <a href="#"><i class="fa-solid fa-trash user-button-icons"></i></a> 
+  </div>
+</div>
+<!--customer-number-one end here---------- -->
+
+<!--customer-number-two start here---------- -->
+<div class="row user-buttons">
+  <div class="col-md-3">
+    <div class="img">
+      <a href="#"><img class="me1" src="img/me.JPG" alt="" /></a>
+    </div>
+  </div>
+  <div class="col-md-3">
+    <a class="jhon" href="#">Jhon Smith</a>
+  </div>
+  <div class="col-md-3">
+    <a href="#"><i class="fa-sharp fa-solid fa-pen-to-square user-button-icons"></i></a>
+  </div>
+  <div class="col-md-3">
+    <a href="#"><i class="fa-solid fa-trash user-button-icons"></i></a> 
+  </div>
+</div>
+<!--customer-number-two end here---------- -->
+
+<!--customer-number-three start here---------- -->
+<div class="row user-buttons">
+  <div class="col-md-3">
+    <div class="img">
+      <a href="#"><img class="me1" src="img/me.JPG" alt="" /></a>
+    </div>
+  </div>
+  <div class="col-md-3">
+    <a class="jhon" href="#">Jhon Smith</a>
+  </div>
+  <div class="col-md-3">
+    <a href="#"><i class="fa-sharp fa-solid fa-pen-to-square user-button-icons"></i></a>
+  </div>
+  <div class="col-md-3">
+    <a href="#"><i class="fa-solid fa-trash user-button-icons"></i></a> 
+  </div>
+</div>
+<!--customer-number-three end here---------- -->
+
+<!--customer-number-four start here---------- -->
+<div class="row user-buttons">
+  <div class="col-md-3">
+    <div class="img">
+      <a href="#"><img class="me1" src="img/me.JPG" alt="" /></a>
+    </div>
+  </div>
+  <div class="col-md-3">
+    <a class="jhon" href="#">Jhon Smith</a>
+  </div>
+  <div class="col-md-3">
+    <a href="#"><i class="fa-sharp fa-solid fa-pen-to-square user-button-icons"></i></a>
+  </div>
+  <div class="col-md-3">
+    <a href="#"><i class="fa-solid fa-trash user-button-icons"></i></a> 
+  </div>
+</div>
+<!--customer-number-four end here---------- -->
+
+<!--customer-number-five start here---------- -->
+<div class="row user-buttons">
+  <div class="col-md-3">
+    <div class="img">
+      <a href="#"><img class="me1" src="img/me.JPG" alt="" /></a>
+    </div>
+  </div>
+  <div class="col-md-3">
+    <a class="jhon" href="#">Jhon Smith</a>
+  </div>
+  <div class="col-md-3">
+    <a href="#"><i class="fa-sharp fa-solid fa-pen-to-square user-button-icons"></i></a>
+  </div>
+  <div class="col-md-3">
+    <a href="#"><i class="fa-solid fa-trash user-button-icons"></i></a> 
+  </div>
+</div>
+<!--customer-number-five end here---------- -->
+
+<!-- all cotomers end here------------------ -->
+  </div>
+  <!-- first-user col end----------------- -->
+
+
+  <!-- secound-user col start here--------------- -->
+  <div class="col-md-4 text-center p-4  first-sales-col">
+
+<div class="stoke1 pb-4">
+  <div class="stoke-detail">
+    <p>Sales of the last week</p>
+  </div>
+
+  <div class="stoke-month">
+    <a class="last-week-icon1"  href="#"><i class="fa-solid fa-ellipsis last-week-icon"></i></a>
+  </div>
+</div>
+
+ <!--most-sales start here---------- -->
+<div class="row user-buttons text-center">
+<h3 class="seventy-four">74%</h3>
+<p class="seventy-four-progress">Progress</p>
+
+<div class="most-sales">
+  <div class="most-sale-logo">
+    <i class="fa-solid fa-chart-gantt most-sale-logo1"></i>
+  </div>
+  <div class="most-sale-logo-detail">
+<h5 class="sales-sec">Most Sales</h5>
+<p>Authors with best sales</p>
+  </div>
+</div>
+
+<div class="most-sales">
+  <div class="most-sale-logo">
+    <i class="fa-regular fa-hand-peace most-sale-logo2"></i>
+  </div>
+  <div class="most-sale-logo-detail">
+<h5 class="sales-sec">Total sales lead</h5>
+<p>40% increased on week</p>
+  </div>
+</div>
+
+<div class="most-sales">
+  <div class="most-sale-logo">
+    <i class="fa-solid fa-database most-sale-logo3"></i>
+  </div>
+  <div class="most-sale-logo-detail">
+<h5 class="sales-sec">Average Bestseller</h5>
+<p>Pitstop Email Marketing</p>
+  </div>
+</div>
+
+
+</div>
+<!--most-sales end here---------- -->
+  </div>
+<!-- secound-user col end here--------------- -->
+
+
+  <!-- third-user col start here--------------- -->
+  <div class="col-md-3 text-center p-4  first-sales-col">
+    
+<div class="stoke1 pb-4">
+  <div class="stoke-detail">
+    <p>Sales Details</p>
+  </div>
+
+  <div class="stoke-month">
+    <a class="last-week-icon1" href="#"><i class="fa-solid fa-ellipsis last-week-icon"></i></a>
+  </div>
+</div>
+<!-- sales details item start here -->
+<div class="row mb-2">
+  <div class="col-md-6">
+    <div class="first-item ">
+      <div class="first-item-icon">
+<a class="sales-main-icon-background" href="#"><i class="fa-sharp fa-solid fa-bag-shopping sales-main-icon"></i></a>
+      </div>
+      <div class="first-item-name">
+<h5 class="twenty-thirty">$2034</h5>
+<p>Auther</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="first-item ">
+      <div class="first-item-icon">
+<a class="sales-main-icon-background" href="#"><i class="fa-regular fa-file sales-main-icon1"></i></a>
+      </div>
+      <div class="first-item-name">
+<h5 class="twenty-thirty">$706</h5>
+<p>Auther</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row mb-2">
+  <div class="col-md-6">
+    <div class="first-item ">
+      <div class="first-item-icon">
+<a class="sales-main-icon-background" href="#"><i class="fa-solid fa-user-secret sales-main-icon2"></i></a>
+      </div>
+      <div class="first-item-name">
+<h5 class="twenty-thirty">$49</h5>
+<p>Auther</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="first-item ">
+      <div class="first-item-icon">
+<a class="sales-main-icon-background" href="#"><i class="fa-sharp fa-solid fa-phone-volume sales-main-icon3"></i></a>
+      </div>
+      <div class="first-item-name">
+<h5 class="twenty-thirty">$5.8M</h5>
+<p>Auther</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row mb-2">
+  <div class="col-md-6">
+    <div class="first-item ">
+      <div class="first-item-icon">
+<a class="sales-main-icon-background" href="#"><i class="fa-brands fa-ethereum sales-main-icon4"></i></a>
+      </div>
+      <div class="first-item-name">
+<h5 class="twenty-thirty">$2034</h5>
+<p>Auther</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="first-item ">
+      <div class="first-item-icon">
+<a class="sales-main-icon-background" href="#"><i class="fa-sharp fa-solid fa-sliders sales-main-icon5"></i></a>
+      </div>
+      <div class="first-item-name">
+<h5 class="twenty-thirty">$706</h5>
+<p>Auther</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row mb-2">
+  <div class="col-md-6">
+    <div class="first-item ">
+      <div class="first-item-icon">
+<a class="sales-main-icon-background" href="#"><i class="fa-regular fa-hand-peace sales-main-icon6"></i></a>
+      </div>
+      <div class="first-item-name">
+<h5 class="twenty-thirty">$49</h5>
+<p>Auther</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="first-item ">
+      <div class="first-item-icon">
+<a class="sales-main-icon-background" href="#"><i class="fa-solid fa-person-military-pointing sales-main-icon7"></i></a>
+      </div>
+      <div class="first-item-name">
+<h5 class="twenty-thirty">$5.8M</h5>
+<p>Auther</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- sales details item end here -->
+
+   
+   
+     </div>
+    <!-- third-user col end here--------------- -->
+
+</div>
+</section>
+<!-- user sales end here-------------- -->
+
+
+<!-- new-product and visitor start here------------- -->
+<section class="user-sales p-2 pt-3 pb-3">
+  <div class="row m-2">
+  
+    <!-- first-user col start----------------- -->
+    <div class="col-md-4  p-4  first-sales-col">
+  
+  <!-- products heading start here------------------ -->
+  
+      <div class="stoke1 pb-4">
+        <div class="stoke-detail">
+          <p>New Products</p>
+        </div>
+        <div class="stoke-month">
+          <a class="last-week-icon1"  href="#"><i class="fa-solid fa-ellipsis last-week-icon"></i></a>
+        </div>
+      </div>
+  <!-- products heading end here------------------ -->
+  
+  <!-- all products start here------------------ --> 
+  
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Products</th>
+        <th scope="col">Price</th>
+        <th scope="col">Discount</th>
+        <th scope="col">Sold</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">Product 1</th>
+        <td>$564</td>
+        <td>10%</td>
+        <td>40</td>
+      </tr>
+      <tr>
+        <th scope="row">Product 2</th>
+        <td>$567</td>
+        <td>20%</td>
+        <td>50</td>
+      </tr>
+      <tr>
+        <th scope="row">Product 3</th>
+        <td>$564</td>
+        <td>40%</td>
+        <td>30</td>
+      </tr>
+      <tr>
+        <th scope="row">Product 4</th>
+        <td>$56</td>
+        <td>50%</td>
+        <td>120</td>
+      </tr>
+      <tr>
+        <th scope="row">Product 5</th>
+        <td>$364</td>
+        <td>50%</td>
+        <td>49</td>
+      </tr>
+      <tr>
+        <th scope="row">Product 6</th>
+        <td>$56</td>
+        <td>50%</td>
+        <td>70</td>
+      </tr>
+      <tr>
+        <th scope="row">Product 7</th>
+        <td>$544</td>
+        <td>50%</td>
+        <td>50</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <!-- all product end here------------------ -->
+    </div>
+    <!-- first-user col end----------------- -->
+  
+  
+    <!-- secound-user col start here--------------- -->
+    <div class="col-md-7 text-center p-4  first-sales-col">
+  
+  <div class="stoke1 pb-4">
+    <div class="stoke-detail">
+      <p>Visitors</p>
+    </div>
+  
+    <div class="stoke-month">
+      <a class="last-week-icon1"  href="#"><i class="fa-solid fa-ellipsis last-week-icon"></i></a>
+    </div>
+  </div>
+  
+   <!--visitor-area start here---------- -->
+
+  
+<!-- first area start here---------- -->
+<div class="first-area-header">
+  <div class="name">
+<h6>USA</h6>
+  </div>
+  <div class="percent">
+35%
+  </div>
+</div>
+   <div
+   class="progress mb-3"
+   role="progressbar"
+   aria-label="Animated striped example"
+   aria-valuenow="75"
+   aria-valuemin="0"
+   aria-valuemax="100"
+ >
+   <div
+     class="progress-bar"
+     style="width: 35%; background-color: #e8d743"
+   >
+    
+   </div>
+ </div>
+<!-- first area end here---------- -->
+
+<!-- second area start here---------- -->
+<div class="first-area-header">
+  <div class="name">
+<h6>Brazil</h6>
+  </div>
+  <div class="percent">
+75%
+  </div>
+</div>
+   <div
+   class="progress mb-3"
+   role="progressbar"
+   aria-label="Animated striped example"
+   aria-valuenow="75"
+   aria-valuemin="0"
+   aria-valuemax="100"
+ >
+   <div
+     class="progress-bar"
+     style="width: 75%; background-color: #356a8b"
+   >
+     
+   </div>
+ </div>
+<!--second area end here---------- -->
+
+<!-- third area start here---------- -->
+<div class="first-area-header">
+  <div class="name">
+<h6>Ukrain</h6>
+  </div>
+  <div class="percent">
+90%
+  </div>
+</div>
+   <div
+   class="progress mb-3"
+   role="progressbar"
+   aria-label="Animated striped example"
+   aria-valuenow="75"
+   aria-valuemin="0"
+   aria-valuemax="100"
+ >
+   <div
+     class="progress-bar"
+     style="width: 90%; background-color: #aa62e4"
+   >
+     
+   </div>
+ </div>
+<!-- third area end here---------- -->
+
+<!-- fourth area start here---------- -->
+<div class="first-area-header">
+  <div class="name">
+<h6>Urugua</h6>
+  </div>
+  <div class="percent">
+60%
+  </div>
+</div>
+   <div
+   class="progress mb-3"
+   role="progressbar"
+   aria-label="Animated striped example"
+   aria-valuenow="75"
+   aria-valuemin="0"
+   aria-valuemax="100"
+ >
+   <div
+     class="progress-bar"
+     style="width: 60%; background-color: #FFCB77"
+   >
+     
+   </div>
+ </div>
+<!-- fourth area end here---------- -->
+
+<!-- fifth area start here---------- -->
+<div class="first-area-header">
+  <div class="name">
+<h6>England</h6>
+  </div>
+  <div class="percent">
+45%
+  </div>
+</div>
+   <div
+   class="progress mb-3"
+   role="progressbar"
+   aria-label="Animated striped example"
+   aria-valuenow="75"
+   aria-valuemin="0"
+   aria-valuemax="100"
+ >
+   <div
+     class="progress-bar"
+     style="width: 45%; background-color: #FE6D73"
+   >
+    
+   </div>
+ </div>
+<!-- fifth area end here---------- -->
+
+<!-- sixth area start here---------- -->
+<div class="first-area-header">
+  <div class="name">
+<h6>Australia</h6>
+  </div>
+  <div class="percent">
+55%
+  </div>
+</div>
+   <div
+   class="progress mb-3"
+   role="progressbar"
+   aria-label="Animated striped example"
+   aria-valuenow="75"
+   aria-valuemin="0"
+   aria-valuemax="100"
+ >
+   <div
+     class="progress-bar"
+     style="width: 55%; background-color: #51a3de"
+   >
+   </div>
+ </div>
+<!-- sixth area end here---------- -->
+
+  <!--visitor-area end here---------- -->
+
+
+
+    </div>
+  <!-- secound-user col end here--------------- -->
+  
+  
+  </div>
+  </section>
+<!-- new-product and visitor end here------------- -->
+
+
+<!-- recent activity and member start here -->
+<section class="user-sales p-2 pt-3 pb-3">
+  <div class="row m-2">
+  
+    <!-- first-user col start----------------- -->
+    <div class="col-md-4 text-center p-4  first-sales-col">
+  
+  <!-- products heading start here------------------ -->
+  
+  <div class="stoke1 pb-4">
+    <div class="stoke-detail">
+      <p>Stoke Details</p>
+    </div>
+    <div class="stoke-month">
+      <a class="last-week-icon1"  href="#"><i class="fa-solid fa-ellipsis last-week-icon"></i></a>
+    </div>
+  </div>
+<!-- products heading end here------------------ -->
+
+<!-- all products start here------------------ --> 
+
+<table class="table">
+<thead>
+  <tr>
+    <th scope="col">Products Name</th>
+    <th scope="col">Market Price</th>
+  
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <th scope="row">Product 1</th>
+    <td>$564</td>
+  
+  </tr>
+  <tr>
+    <th scope="row">Product 2</th>
+    <td>$567</td>
+ 
+  </tr>
+  <tr>
+    <th scope="row">Product 3</th>
+    <td>$564</td>
+ 
+  </tr>
+  <tr>
+    <th scope="row">Product 4</th>
+    <td>$56</td>
+ 
+  </tr>
+  <tr>
+    <th scope="row">Product 5</th>
+    <td>$364</td>
+  
+  </tr>
+  <tr>
+    <th scope="row">Product 6</th>
+    <td>$56</td>
+ 
+  </tr>
+  <tr>
+    <th scope="row">Product 7</th>
+    <td>$544</td>
+
+  </tr>
+</tbody>
+</table>
+    </div>
+    <!-- first-user col end----------------- -->
+  
+  
+    <!-- secound-user col start here--------------- -->
+    <div class="col-md-4  p-4  first-sales-col">
+  
+  <div class="stoke1 pb-4">
+    <div class="stoke-detail">
+      <p>Recent Activity</p>
+    </div>
+  
+    <div class="stoke-month">
+      <a class="last-week-icon1"  href="#"><i class="fa-solid fa-ellipsis last-week-icon"></i></a>
+    </div>
+  </div>
+  
+   <!--first-actives start here---------- -->
+   <a class="time-active" href="#"><i class="fa-solid fa-circle active-status"></i><span class="min"> 5 min ago</span></a>
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente, </p>
+  <!--first-actives end here---------- -->
+
+   <!--second-actives start here---------- -->
+   <a class="time-active" href="#"><i class="fa-solid fa-circle active-status2"></i><span class="min1"> 10 min ago</span></a>
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente, </p>
+  <!--second-actives end here---------- -->
+
+   <!--third-actives start here---------- -->
+   <a class="time-active" href="#"><i class="fa-solid fa-circle active-status2"></i><span class="min1"> 15 min ago</span></a>
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente, </p>
+  <!--third-actives end here---------- -->
+
+   <!--fourth-actives start here---------- -->
+   <a class="time-active" href="#"><i class="fa-solid fa-circle active-status"></i><span class="min"> 5 min ago</span></a>
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente, </p>
+  <!--fourth-actives end here---------- -->
+
+    </div>
+  <!-- secound-user col end here--------------- -->
+  
+  
+    <!-- third-user col start here--------------- -->
+    <div class="col-md-3 text-center p-4  first-sales-col">
+      
+  <div class="stoke1 pb-4">
+    <div class="stoke-detail">
+      <p>Member Request</p>
+    </div>
+  
+    <div class="stoke-month">
+      <a class="last-week-icon1" href="#"><i class="fa-solid fa-ellipsis last-week-icon"></i></a>
+    </div>
+  </div>
+  <!-- form start here---------- -->
+  <div class="row">
+    <div class="col-md-6 mb-5">
+      <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+    </div>
+    <div class="col-md-6 mb-5">
+      <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+    </div>
+    <div class="col-md-12 mb-5">
+      <input type="email" class="form-control" placeholder="Email" aria-label="Email">
+    </div>
+    <div class="col-md-12 mb-5">
+      <select id="inputState" class="form-select">
+        <option>Role...</option>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+      </select>
+    </div>
+  </div>
+  <!-- form end here-------------- -->
+
+  <!-- button ---------->
+  <div class="d-grid gap-2 col-md-12 mx-auto">
+    <button class="btn btn-primary" type="button">Send Invitation Link</button>
+  </div>
+  <!-- button ------------->
+     
+     
+       </div>
+      <!-- third-user col end here--------------- -->
+  
+  </div>
+  </section>
+<!-- recent activity and member end here -->
+
+
+
+      </div>
+      <!-- right-section end here------------------- -->
+        </div>
+      
+ 
+
+    </section>
+  
+    <!-- link kit code...................... -->
+    <script
+      src="https://kit.fontawesome.com/a5fff4c5b6.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- JavaScript Bundle with Popper---------------------------------->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
